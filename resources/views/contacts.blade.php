@@ -61,13 +61,17 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .text{
+                text-align: center
+            }
         </style>
     </head>
     <body>
             <header>
-                <div class="links">
-                        <a href="{{ url ('/home')}}">home</a> 
-                        <a href="{{url('/')}}">welcome</a>
+                <div class="links text ">
+                        <a href="{{ route('home')}}">home</a> 
+                        <a href="{{ route('welcome')}}">welcome</a>
                     
                 </div>
             </header>
